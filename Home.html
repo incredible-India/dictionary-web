@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <div class="block"></div>
+    <h1 class="mainhead">My Dictionary</h1>
+    <i class="fa fa-graduation-cap jk" aria-hidden="true"></i>
+</div>
+
+
+<div class="form">
+    <select  id="selecet">
+        <option value="hindi" >Hindi</option>
+        <option value="English" selecteds>English</option>
+    </select>
+    <input type="text" id="text" placeholder="Enter the word"><i class="fa fa-search ol" aria-hidden="true"></i>
+    <br>
+
+</div>
+<div class="table" style="display:none;">
+    <table>
+        <thead>
+            
+    <tr>
+        <th style="background-color: red;">Word</th>
+        <th style="background-color: blue;">Parts of Speech</th>
+        <th style="background-color: yellowgreen;">Synonyms</th>
+        <th style="background-color: teal;">Definition</th>
+        <th style="background-color: orangered;">Exapmle</th>
+    </tr>
+    </thead>
+    <tbody id="insideBody">
+  
+    </tbody>
+</table>
+
+</div>
+<div class="mainform">
+    <div class="menu">
+<ul>
+    <li><i class="fa fa-facebook" aria-hidden="true" onclick="location.href='http://www.facebook.com'"></i></li>
+    <li><i class="fa fa-twitter" aria-hidden="true" onclick="location.href='http://www.twitter.com'"></i></li>
+    <li><i class="fa fa-envelope" aria-hidden="true" onclick="location.href='http://www.gmail.com'"></i></li>
+    <li><i class="fa fa-comments" aria-hidden="true" title="Feedback" onclick="location.href='http://www.wikipidia.com'"></i></li>
+</ul>
+
+    </div>
+
+</div>
+</body>
+
+<script src="dict.js"></script>
+</html>

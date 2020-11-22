@@ -1,0 +1,156 @@
+
+body{
+    background-color: #6e72fc;
+    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    
+    
+ 
+}
+@keyframes anima{
+    0%{
+        left: 10px;
+        width: 56px;
+    }
+    100%{
+        left: 330px;
+        width: 300px;
+        background-color: #130f40;
+     
+    }
+}
+
+
+.header{
+    position: fixed;
+    z-index: 1;
+
+}
+.block{
+    position: relative;
+    width: 56px;
+    height: 57px;
+    top: 19px;
+    left: 10px;
+    background-color: #c3073f;
+    animation-name: anima;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+.mainhead{
+ 
+        position: relative;
+        left: 10px;
+        top: -86px;
+        color: white;
+        font-size: 52px;
+        font-family: system-ui;
+        letter-spacing: 12px;
+        text-shadow: 1px 1px 5px, 1px 1px 50px;
+}
+
+.jk  {
+    position: absolute;
+    top: 15px;
+    /* right: -118px; */
+    left: 500px;
+    font-size: 75px;
+
+
+}
+
+
+
+.mainform{
+    position: absolute;
+    display: flex;
+    top: 400px;
+    flex-direction: row;
+    border: 1px solid;
+}
+
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -45px;
+    font-size: 49px;
+    cursor: pointer;
+}
+    
+li{
+    padding: 10px;
+    list-style: none;
+
+    
+}
+li:nth-child(1){
+    background-color: blue;
+}
+li:nth-child(2){
+    background-color: skyblue;
+}
+li:nth-child(3){
+    background-color: red;
+}
+li:nth-child(4){
+    background-color: rgb(21, 255, 0);
+}
+ul li i{
+    font-size: 10px;
+
+}
+.form{
+    background-color: royalblue;
+    border: 1px solid ;
+    position: absolute;
+    top: 166px;
+    display: flex;
+    justify-content: center;
+    left: 374px;
+}
+select{
+    width: 125px;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#text
+{
+    width: 300px;
+    outline: none;
+    font-size: 25px;
+}
+
+.ol{
+    font-size: 40px;
+    color: blanchedalmond;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.table{
+
+        position: absolute;
+        top: 33%;
+        left: 15%;
+}
+th{
+    color: white;
+}
+table {
+box-sizing: border-box;
+    border: 2px dashed blue;
+    font-size: 30px;
+    padding: 10px;
+
+}
+th, td{
+    box-sizing: border-box;
+border: 2px dashed blue;
+font-size: 30px;
+padding: 10px;
+
+}
